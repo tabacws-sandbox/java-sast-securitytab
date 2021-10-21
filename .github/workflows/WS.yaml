@@ -32,5 +32,5 @@ jobs:
         curl -LJO https://unified-agent.s3.amazonaws.com/wss-unified-agent.jar
         echo Unified Agent downloaded successfully
         java -jar wss-unified-agent.jar
-        curl -LJO https://raw.githubusercontent.com/whitesource-ft/ws-examples/main/pipelinereports.sh
+        curl -LJO https://raw.githubusercontent.com/whitesource-ft/ws-examples/main/Scripts/pipelinereports.sh
         chmod +x ./pipelinereports.sh && ./pipelinereports.sh saas-eu
