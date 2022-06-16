@@ -22,7 +22,10 @@ jobs:
       - name: Run Mend-SAST
         run: |
           ./mendsastcli --dir ./ --name=${{github.event.repository.name}}-${{github.ref_name}}-${{github.sha}} --app=${{github.event.repository.name}} --baseline=true --report=true --formats sarif --filename Mend_SAST
+          echo "current Path"
           pwd
+          echo "curr dir"
+          echo "curr dir"
           ls
         # Upload ThunderScan Results to Github Security
 #      - name: Github Security Results Upload
