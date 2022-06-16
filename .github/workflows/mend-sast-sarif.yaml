@@ -27,7 +27,7 @@ jobs:
           echo "curr dir"
           echo "curr dir"
           ls
-         Upload ThunderScan Results to Github Security
+#         Upload ThunderScan Results to Github Security
       - name: Github Security Results Upload
         uses: github/codeql-action/upload-sarif@v2
         with:
